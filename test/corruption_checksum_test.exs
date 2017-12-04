@@ -7,6 +7,6 @@ defmodule AdventOfCode17Test.CorruptionChecksumTest do
   end
 
   test "spreadsheet2.txt should return 9" do
-    assert AdventOfCode17.CorruptionChecksum.evenly_divisible_values("spreadsheet2.txt") == 9
+    assert AdventOfCode17.CorruptionChecksum.evenly_divisible_values("spreadsheet2.txt") == 308
   end
 end
